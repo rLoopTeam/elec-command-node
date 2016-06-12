@@ -28,13 +28,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:rloop
 LIBS:CommandNode-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 4
-Title "Hover Engine Interface"
+Sheet 5 7
+Title "Lift Mechanism"
 Date ""
 Rev "1"
 Comp ""
@@ -43,8 +44,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 11900 10200 0    118  ~ 0
-rLoop - Command Node
-Text Notes 11950 10400 0    60   ~ 0
-Original Author: SafetyLok
+$Comp
+L TE_640456-8 P?
+U 1 1 575DB937
+P 13750 3100
+F 0 "P?" H 13800 3150 50  0000 C CNN
+F 1 "TE_640456-8" V 13900 2700 50  0000 C CNN
+F 2 "RLOOP_FOOTPRINTS:rLoop_TE640456-8" H 13800 2700 50  0001 C CNN
+F 3 "" H 13800 2700 50  0000 C CNN
+	1    13750 3100
+	1    0    0    -1  
+$EndComp
+Text Notes 14450 3900 1    63   ~ 0
+Lift Mech is 12V\n6.5A
 $EndSCHEMATC
