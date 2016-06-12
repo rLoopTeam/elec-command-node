@@ -44,21 +44,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1900 2000 0    60   Output ~ 0
+Text HLabel 8000 2800 2    60   Output ~ 0
 RS485_MUX14_SA0
-Text HLabel 1900 2100 0    60   Output ~ 0
+Text HLabel 8000 2900 2    60   Output ~ 0
 RS485_MUX14_SA1
-Text HLabel 1900 2300 0    60   Output ~ 0
+Text HLabel 3100 3700 0    60   Output ~ 0
 RS485_TX14
-Text HLabel 1900 2200 0    60   Input ~ 0
+Text HLabel 3100 3600 0    60   Input ~ 0
 RS485_RX14_3V
-Text HLabel 1900 2800 0    60   Output ~ 0
+Text HLabel 8000 3000 2    60   Output ~ 0
 RS485_MUX58_SA0
-Text HLabel 1900 2900 0    60   Output ~ 0
+Text HLabel 8000 3100 2    60   Output ~ 0
 RS485_MUX58_SA1
-Text HLabel 1900 3100 0    60   Output ~ 0
+Text HLabel 3100 4400 0    60   Output ~ 0
 RS485_TX58
-Text HLabel 1900 3000 0    60   Input ~ 0
+Text HLabel 3100 4300 0    60   Input ~ 0
 RS485_RX58_3V
 $Comp
 L NODE_CORE_CONNECTOR A?
@@ -71,6 +71,40 @@ F 3 "" H 5550 3600 60  0000 C CNN
 	1    5550 3600
 	1    0    0    -1  
 $EndComp
-Text HLabel 1900 3450 0    60   Output ~ 0
+Text HLabel 3100 3800 0    60   Output ~ 0
 PARK_BRAKE
+Wire Wire Line
+	4800 3600 3100 3600
+Wire Wire Line
+	4800 3700 3100 3700
+Wire Wire Line
+	4800 4100 3100 4100
+Wire Wire Line
+	4800 4200 3100 4200
+Wire Wire Line
+	4800 4300 3100 4300
+Wire Wire Line
+	4800 4400 3100 4400
+Wire Wire Line
+	8000 2800 6300 2800
+Wire Wire Line
+	8000 2900 6300 2900
+Wire Wire Line
+	8000 3000 6300 3000
+Wire Wire Line
+	8000 3100 6300 3100
+Wire Wire Line
+	4800 3800 3100 3800
+Text HLabel 8000 3400 2    60   Output ~ 0
+CHARGER_CTRL_TX
+Text HLabel 3100 4100 0    60   Input ~ 0
+CHARGER_RS232_RX
+Text HLabel 8000 3500 2    60   Input ~ 0
+CHARGER_CTRL_RX
+Text HLabel 3100 4200 0    60   Output ~ 0
+CHARGER_RS232_TX
+Wire Wire Line
+	8000 3400 6300 3400
+Wire Wire Line
+	8000 3500 6300 3500
 $EndSCHEMATC
