@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title "Park Brake Interface"
 Date ""
 Rev "1"
@@ -311,4 +311,20 @@ Wire Wire Line
 Wire Wire Line
 	5000 8650 5000 5150
 Connection ~ 5000 5150
+Text Notes 9550 5350 0    60   ~ 0
+Note: This interface can also be used to control \nThe clutches if they are used.
+Wire Wire Line
+	7800 4100 9950 4100
+Wire Wire Line
+	7800 3750 8450 3750
+Wire Wire Line
+	8450 3750 8450 4100
+Connection ~ 8450 4100
+Wire Wire Line
+	7900 7600 10050 7600
+Wire Wire Line
+	8550 7250 8550 7600
+Connection ~ 8550 7600
+Wire Wire Line
+	7900 7250 8550 7250
 $EndSCHEMATC

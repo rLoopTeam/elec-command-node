@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title "Battery Charger Interface"
 Date ""
 Rev "1"
@@ -183,4 +183,15 @@ Text HLabel 7100 5500 0    60   Output ~ 0
 CHARGER_CTRL_RX
 Text HLabel 7100 5200 0    60   Input ~ 0
 CHARGER_RS232_TX
+$Comp
+L GNDD #PWR?
+U 1 1 576A2885
+P 11200 5900
+F 0 "#PWR?" H 11200 5650 50  0001 C CNN
+F 1 "GNDD" H 11200 5750 50  0000 C CNN
+F 2 "" H 11200 5900 50  0000 C CNN
+F 3 "" H 11200 5900 50  0000 C CNN
+	1    11200 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
